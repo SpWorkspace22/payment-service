@@ -1,0 +1,12 @@
+- project:
+    check:
+      jobs:
+        - nodejs-build
+        - java-build
+        - python-build
+
+    gate:
+      jobs:
+        - nodejs-build
+        - java-build
+        - python-build
