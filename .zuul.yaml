@@ -2,11 +2,15 @@
     check:
       jobs:
         - nodejs-build
-        - java-build
+        - java-build:
+            vars:
+              build_profile: release
         - python-build
 
     gate:
       jobs:
         - nodejs-build
-        - java-build
+        - java-build:
+            vars:
+              build_profile: release
         - python-build
