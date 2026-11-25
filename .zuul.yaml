@@ -5,10 +5,11 @@
         - nodejs-test
         - java-build
         - python-build
-
+        - integration-test
     gate:
       jobs:
         - nodejs-build
         - nodejs-test
         - java-build
         - python-build
+        - integration-test
