@@ -2,11 +2,13 @@
     check:
       jobs:
         - nodejs-build
+        - nodejs-test
         - java-build
         - python-build
 
     gate:
       jobs:
         - nodejs-build
+        - nodejs-test
         - java-build
         - python-build
