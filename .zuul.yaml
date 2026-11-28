@@ -3,7 +3,11 @@
       jobs:
         - nodejs-build
         - nodejs-test
+        - company-security-scan
+        - company-security-audit
     gate:
       jobs:
         - nodejs-build
         - nodejs-test
+        - company-security-scan
+        - company-security-audit
