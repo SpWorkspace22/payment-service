@@ -3,13 +3,12 @@
       jobs:
         - nodejs-build
         - nodejs-test
-        - java-build
-        - python-build
-        - integration-test
+        - company-security-scan
+        - company-security-audit
+        - company-kubernetes-worker-smoke
     gate:
       jobs:
         - nodejs-build
         - nodejs-test
-        - java-build
-        - python-build
-        - integration-test
+        - company-security-scan
+        - company-security-audit
